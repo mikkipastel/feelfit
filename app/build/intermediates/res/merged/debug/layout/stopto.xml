@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tran_all"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:id="@+id/toptab_stopto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/nulll"
+            android:visibility="invisible" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+       
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/button_saveto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/saveto"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop_to_01" />
+
+    <ImageView
+        android:id="@+id/button_stopto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/stopto"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop_to_02" />
+
+    <ImageView
+        android:id="@+id/button_cancelto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/pauseto"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop_to_03" />
+
+    </LinearLayout>    
+	<!-- <TableRow
+    	android:id="@+id/tableRow_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >  -->   
+
+        <!-- <ImageView
+            android:id="@+id/button_saveto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/saveto"
+            android:src="@drawable/stop_to_01_save"
+            android:text="@string/nulll" /> -->
+ 
+    <!-- </TableRow>
+    
+	<TableRow
+    	android:id="@+id/tableRow_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >  -->   
+
+        <!-- <ImageView
+            android:id="@+id/button_stopto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/stopto"
+            android:src="@drawable/stop_to_02_reset"
+            android:text="@string/nulll" /> -->
+ 
+    <!-- </TableRow> 		
+	
+	<TableRow
+    	android:id="@+id/tableRow_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >  -->   
+        <!-- <ImageView
+            android:id="@+id/button_cancelto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nulll"
+            android:contentDescription="@string/pauseto"
+            android:src="@drawable/stop_to_03_resume" /> --> 
+
+    
+	<TableRow
+        android:id="@+id/tableRow_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button_022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nulll"
+            android:visibility="invisible" />       
+    </TableRow>
+	
+</LinearLayout><!-- From: file:/D:/workspace_android/feelfit/app/src/main/res/layout/stopto.xml -->

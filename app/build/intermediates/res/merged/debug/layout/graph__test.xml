@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" > -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tran_all"
+    android:orientation="vertical" >
+
+    
+
+
+
+
+    
+    <TableRow
+        android:id="@+id/toptab_graph"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+        <!-- <Button
+            android:id="@+id/button_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nulll"
+            android:visibility="invisible" /> -->
+    </TableRow> 
+    
+<!-- 	<TableRow
+    	android:id="@+id/tableRow_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+		<ScrollView 
+        	android:id="@+id/scrollView1"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent" >
+		<TextView
+		    android:id="@+id/result_fromfile"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/showout" />
+		</ScrollView>
+    </TableRow> -->
+
+	<!-- <TableRow
+    	android:id="@+id/tableRow_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+		<Button
+		    android:id="@+id/more_graph"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/moregraph" />
+    </TableRow> -->
+	
+	<!-- <TableRow
+	    android:id="@+id/tableRow_showgraph"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	</TableRow> -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/graphArea"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/graphLabel"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical" >
+
+    </LinearLayout>
+
+
+	<!-- <TableRow
+	    android:id="@+id/tableRow_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/labelDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/labelDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/labelDate3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/labelDate4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/labelDate5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow> -->
+
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="bottom"
+	    android:gravity="bottom"
+	    android:orientation="horizontal" >
+
+
+	    <ImageView
+	        android:id="@+id/butoom_graph"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/graph"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/footer_working_01" />
+
+
+
+	    <ImageView
+	        android:id="@+id/buttom_fb"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/fb"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/footer_null_02" />
+
+	    <ImageView
+	            android:id="@+id/buttom_kmcal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/kmcal"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/footer_none_03"
+	            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!--     </ScrollView> --><!-- From: file:/D:/workspace_android/feelfit/app/src/main/res/layout/graph__test.xml -->

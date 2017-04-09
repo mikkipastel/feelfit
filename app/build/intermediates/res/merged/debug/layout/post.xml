@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_tran_all"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:id="@+id/toptab_fbpost"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nulll"
+            android:visibility="invisible" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nulll"
+            android:visibility="invisible" />       
+    </TableRow>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:textSize="13sp"
+		android:text="@string/wallhwader"/>
+		
+	<EditText
+		android:id="@+id/revieew"
+		android:layout_marginTop="15dp"
+		android:layout_width="250dp"
+		android:layout_height="70dp"
+		android:hint="@string/hint01"/>
+		
+	<CheckBox
+		android:id="@+id/cb_facebook"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="5dp"
+		android:text="@string/fb"
+		android:textSize="14sp"
+		android:clickable="true"
+		android:focusable="true" 
+		android:button="@drawable/btn_check_facebook"/>
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_marginTop="15dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/poststatus"/>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+
+	    <ImageView
+	        android:id="@+id/buttom_graph"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/graph"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/footer_none_01" />
+
+	    <ImageView
+	            android:id="@+id/buttom_fb"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/fb"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/footer_working_02"
+	            android:layout_weight="1" />
+	    <ImageView
+	            android:id="@+id/buttom_kmcal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/kmcal"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/footer_none_03"
+	            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/workspace_android/feelfit/app/src/main/res/layout/post.xml -->

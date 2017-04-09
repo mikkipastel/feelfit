@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">feelfit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">feelfit</string>
+    <string name="ok"> OK </string>
+    <string name="Kg">kg</string>
+    <string name="contact">contact</string>
+    <string name="nulll">nulll</string>
+    <string name="num0">num0</string>
+    <string name="num1">num1</string>
+    <string name="num2">num2</string>
+    <string name="num3">num3</string>
+    <string name="num4">num4</string>
+    <string name="num5">num5</string>
+    <string name="num6">num6</string>
+    <string name="num7">num7</string>
+    <string name="num8">num8</string>
+    <string name="num9">num9</string>
+    <string name="del">del</string>
+    <string name="ok_go">OK</string>
+    <string name="user_weight">           </string>
+    <string name="zero">0</string>
+    <string name="zero_f">0.0</string>
+    <string name="km_d">km</string>
+    <string name="cal_d">Cal</string>
+    <string name="stop">stop</string>
+    <string name="saveto">save</string>
+    <string name="stopto">stopto</string>
+    <string name="pauseto">pause</string>
+    <string name="graph">graph</string>
+    <string name="fb">  facebook</string>
+    <string name="kmcal">kmcal</string>
+    <string name="cancel">Cancel</string>
+    <string name="graph_header">user history</string>
+    <string name="showout" />
+    <string name="inputweight">Input Weight</string>
+    <string name="moregraph">show graph</string>
+    <string name="poststatus">   Post Status..  </string>
+    <string name="sharedto">share to:</string>
+    <string name="wallhwader">Post your feelfit result to Facebook status</string>
+    <string name="hint01">shared to your friend</string>
+    <string name="fbnot">  Facebook (Not connected) </string>
+    <string name="postfb">Post Facebook</string>
+    <string name="walhwader1">Shared feelfit to your friend, Display authorization dialog.</string>
+    <string name="header_post">Shared feelfit to your friend, Display authorization dialog, and Post your feelfit result to Facebook status.</string>
+    <string name="contactus">mindidea@gmail.com</string>
+
+</resources>

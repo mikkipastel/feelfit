@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#FF0AFF50</color>
+    <color name="pink">#FFFF0A96</color>
+    <color name="orange">#FFFF460A</color>
+    <color name="yellow">#FFFFFF0A</color>
+    <color name="blue">#FF1BA1E2</color>
+    <color name="greenmint">#FF1BE2C2</color>
+    <color name="ladypink">#FFF19C9C</color>
+    <color name="red">#FFE60202</color>
+    <color name="redorange">#FFE63602</color>
+    <color name="shockpink">#FFE6022F</color>
+    <color name="lemonlime">#FFC3FF00</color>
+    <color name="lightblue">#c8e0f0</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="grayblack">#555555</color>
+
+</resources>
